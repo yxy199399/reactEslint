@@ -3,8 +3,7 @@ import Icon from './assets/book.png'
 import './App.less'
 export default class App extends Component {
   render() {
-    console.log(process.env)
-
+    // console.log(process.env)
     return (
       <div>
         <img src={Icon} />
